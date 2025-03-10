@@ -1,6 +1,6 @@
 #binary search works with an already sorted list to find a specific value
 
-#takes to parameters, the list itself and the item that user is looking for
+#takes two parameters, the list itself and the item that user is looking for
 def binary_search(list, item):
     beginIndex = 0 #starting of list
     endIndex = len(list) - 1 #ending of list, -1 because python starts it from 0
